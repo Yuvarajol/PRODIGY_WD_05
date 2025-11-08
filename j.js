@@ -7,7 +7,7 @@ const cityhide = document.querySelector('.city-hide');
 
 search.addEventListener('click', () => {
 	
-	const APIkey = 'cb7a6fe874df29282c722f5bdd6e2c81';
+	const APIkey = 'ae068d041f4af9a009dc07d8c0835597';
 	const city = document.querySelector('.search-box input').value;
 	
 	if(city == '')
@@ -125,4 +125,5 @@ search.addEventListener('click', () => {
 				}
 			}
 		});
+
 });	
