@@ -6,7 +6,7 @@ const error404 = document.querySelector('.not-found');
 const cityHide = document.querySelector('.city-hide');
 
 search.addEventListener('click', () => {
-    const APIkey = 'cb7a6fe874df29282c722f5bdd6e2c81';
+    const APIkey = 'a9633850807cc712645cfa96d076d782';
     const city = document.querySelector('.search-box input').value;
 
     if (city === '') return;
@@ -119,3 +119,4 @@ search.addEventListener('click', () => {
             }
         });
 });
+
